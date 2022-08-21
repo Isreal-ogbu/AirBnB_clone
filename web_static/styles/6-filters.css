@@ -52,6 +52,28 @@
     margin: 2px 0 0 30px;
 }
 
+ul.popover{
+    background-color: #FAFAFA;
+    border: #DDDDDD solid 1px;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    top: 0;
+    display: none;
+    margin-top: 70px;
+    position: absolute;
+    z-index: 1;
+}
+
+ul.popover ul li h2{
+    font-size: 16px; 
+}
+
+.filters div:hover ul.popover{
+    display: block;
+}
+
 @media screen and (max-width: 500px) {
     .filters{
         width: 100%;
@@ -70,5 +92,13 @@
 
     .amenities{
         margin-left: -20px;
+    }
+
+    ul.popover ul li h2{
+        margin-left: -5px;
+    }
+
+    .amenities ul.popover{
+        margin-left: 20px;
     }
 }
