@@ -164,8 +164,8 @@ IMPORTANT: The project was created in UBUNTU 14.04.3 LTS and Python 3.4.3.
 
 ## Team
 
-- GitHub at <a href="https://github.com/Isreal-ogbu">`Isreal`</a>
-- 
+- Ogbu Isreal
+- Ursanne Kengne Kengne
 
 
 ---
