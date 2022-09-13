@@ -16,7 +16,7 @@ import shlex
 class HBNBCommand(cmd.Cmd):
     """Command processor"""
 
-    prompt = "(hbnb) "
+    prompt = "(@ogbuisreal) "
     l_classes = ['BaseModel', 'User', 'Amenity',
                  'Place', 'City', 'State', 'Review']
 
